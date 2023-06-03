@@ -25,3 +25,32 @@
         --pading-but:24px;
         --nav-height:100px;
     }
+
+    .NavBar{
+
+       background-color: var(--blue-Dark); 
+       width: 100vw;
+       height: var(--nav-height);
+       
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+
+       position: fixed;
+       top: 0;
+       left: 0;
+
+       padding-left: var(--pading-section);
+       padding-right: var(--pading-section);
+
+    }
+
+    .NavBar_form{
+
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        gap: 90px;
+    
+    }
