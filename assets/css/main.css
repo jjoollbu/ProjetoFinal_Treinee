@@ -42,9 +42,10 @@
 
     .Spacement{
 
-        padding-top: 120px;
+        padding-top: 120px; /* Esse .Spacement é pra o conteudo não ficar atrás da NavBar */
     }
 
+    
     .NavBar{
 
        background-color: var(--blue-Dark); 
