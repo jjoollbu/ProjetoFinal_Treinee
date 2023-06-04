@@ -1,0 +1,120 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Fontes */
+*, 
+    *:after,
+    *:before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+/*     
+    html{
+    
+        font-size: 25px;
+        font-family: 'Lobster', cursive;
+        font-family: 'La Belle Aurore', cursive;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Playfair Display', serif;
+    } */
+    
+    :root{
+
+        --blue-Dark: #07263B;
+        --blue-dark: #03394D;
+        --blue-sea: #2A5666;
+        --blue-baby: #0088B0;
+        --orange-dark: #875000;
+        --gray: #808080;
+        --gray-white: #D7D1E2;
+        --gray-blue: #D1EAF2;
+        --black: #000000;
+
+    
+        --pading-section: calc((100vw - 1200px)/2 );
+        --pading-but:24px;
+        --nav-height:100px;
+    }
+
+    .Spacement{
+
+        padding-top: 120px; /* Esse .Spacement é pra o conteudo não ficar atrás da NavBar */
+    }
+
+    
+    .NavBar{
+
+       background-color: var(--blue-Dark); 
+       width: 100vw;
+       height: var(--nav-height);
+       
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+
+       position: fixed;
+       top: 0;
+       left: 0;
+       z-index: 99;
+
+       padding-left: var(--pading-section);
+       padding-right: var(--pading-section);
+
+    }
+
+    .NavBar_form{
+
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        gap: 90px;
+    
+    }
+
+    .NavBar_logo{
+
+        height: 100%;
+        margin-left: 25px;
+    }
+
+    .NavBar_link{
+
+        color: var(--orange-dark);
+        font-size: 25px;
+        font-family: 'Lobster', cursive;
+        margin-right: 40px;
+    }
+
+    .Footer_form {
+        background-color: var(--blue-Dark);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+      }
+      
+      .Footer_text {
+        color: var(--gray);
+        font-size: 12px;
+        font-family: 'Playfair Display', serif;
+        margin-top: 10px;
+      }
+      
+      .Footer_icons {
+        max-width: 30px;
+        max-height: 30px;
+        margin-bottom: 10px; 
+      }
+      
+      .Footer_links {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+      }
+      
