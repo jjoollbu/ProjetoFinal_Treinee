@@ -1,3 +1,13 @@
+
+body{
+    height: 100vh;
+    margin-bottom: 50%;
+    background-image: url("/assets/Images/ofertas/fundo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container { text-align: center; }
 
 
@@ -6,13 +16,31 @@
     color: var(--gray-white);
 }
 
+.div{
+
+    display: inline-block;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    margin-bottom: 10px;
+}
+
 .div_image{
     display: inline-block;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    margin-bottom: 10px;
 }
 
 .img{
 
     /* border-image: auto; */
     height: 224px;
-    width: 198px;
+    width: 194px;
+}
+
+.img-section2{
+
+    /* border-image: auto; */
+    height: 210px;
+    width: 200px;
 }
