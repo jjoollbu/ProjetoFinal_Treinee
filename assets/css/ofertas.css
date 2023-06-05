@@ -1,7 +1,11 @@
 .container { text-align: center; }
 
 
-.font-title-combo{
+.font_combo{
     font-family: 'Lobster', cursive;
     color: var(--gray-white);
+}
+
+.div_image{
+    display: inline-block;
 }
