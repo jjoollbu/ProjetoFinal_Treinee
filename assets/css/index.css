@@ -1,0 +1,132 @@
+/* Divisoria codigo de Israel pra baixo */
+*, 
+    *:after,
+    *:before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    :root{
+
+        --blue-Dark: #07263B;
+        --blue-dark: #03394D;
+        --blue-sea: #2A5666;
+        --blue-baby: #0088B0;
+        --orange-dark: #875000;
+        --gray: #808080;
+        --gray-dark: #7E8080;
+        --gray-white: #D7D1E2;
+        --gray-blue: #D1EAF2;
+        --black: #000000;
+
+    
+        --pading-section: calc((100vw - 1200px)/2 );
+        --pading-but:24px;
+        --nav-height:100px;
+    }
+
+.About_back{
+    
+    background-image: url(/assets/Images/Home/2725037.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Back_bright{
+
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.About_tittle{
+
+    padding-top: 60px;
+    font-size: 60px;
+    font-family: 'La Belle Aurore', cursive;
+    color: var(--gray-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.About_images{
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.Middle_images{
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.Image_one{
+
+    width: 25%;
+    max-width: 100%;
+    height: auto;
+    padding-left: 50px;
+    margin-left: 150px;
+}
+
+.Image_two{
+    
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.Image_three{
+
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.Image_four{
+
+    width: 25%;
+    max-width: 100%;
+    height: auto;
+    margin-right: 100px;
+}
+
+.Retangulo{
+
+    margin-top: 110px;
+    width: 100%;
+    height: 400px; 
+    background-color: var(--blue-sea);
+    border-top-left-radius: 25px; 
+    border-top-right-radius: 25px; 
+}
+
+.About_tittle_two{
+
+    padding-top: 60px;
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+    color: var(--orange-dark);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.About_text{
+
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    color: var(--gray-white);
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
