@@ -48,35 +48,38 @@ body{
 }
 
 
- /* .container_cabecalho{
-    position: relative;
-    margin: auto;
-    background: url("assets/Images/ofertasback_2.png") center center no-repeat;
-    width: 200px;
-    bottom: 10px;
-} */
-
 .text_cabecalho{
-    /* margin-top: 15px; */
+    /* margin-top: 15px;
     /* position: absolute; */
     /* padding-right: 6vw ; */
     /* bottom: 697px; */
     text-align: center;
     /* padding-left: 57px; */
+    font-family:'Lobster', cursive ;
     color: var(--black);
 }
 
+.text1{
+        font-family:'Lobster', cursive ;
+        color: var(--black);
+
+}
+
+.text{
+    font-family:'Lobster', cursive ;
+    color: var(--black);
+    
+}
+
 .button_ofertas{
-    padding: 4px 60px;
-    /* margin: 4px 2px; */
-    /* text-align: center; */
+    padding: 10px 60px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
 }
 
 .button_combos{
-    padding: 1px 40px;
+    padding: 10px 56px;
     /* margin: 4px 2px; */
     /* text-align: center; */
     border: none;
@@ -85,7 +88,7 @@ body{
 }
 
 .button_combos_title{
-    padding: 10px 55px;
+    padding: 10px 60px;
     /* margin: 4px 2px; */
     /* text-align: center; */
     border: none;
@@ -96,6 +99,18 @@ body{
 }
 
 .button_ofertas_rodape{
+    padding: 10px 50px;
+    /* margin: 4px 2px; */
+    /* text-align: center; */
+    border: none;
+    /* border-radius: 50px; */
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    cursor: pointer;
+    margin-top: -4px;
+}
+
+.button_ofertas_rodape2{
     padding: 10px 47px;
     /* margin: 4px 2px; */
     /* text-align: center; */
@@ -107,8 +122,32 @@ body{
     margin-top: -4px;
 }
 
+.button_ofertas_rodape3{
+    padding: 10px 35px;
+    /* margin: 4px 2px; */
+    /* text-align: center; */
+    border: none;
+    /* border-radius: 50px; */
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    cursor: pointer;
+    margin-top: -4px;
+}
+
+.button_ofertas_rodape4{
+    padding: 10px 62px;
+    /* margin: 4px 2px; */
+    /* text-align: center; */
+    border: none;
+    /* border-radius: 50px; */
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    cursor: pointer;
+    margin-top: -4px;
+}
+
 .button_image_problematico{
-    padding: 10px 58px;
+    padding: 10px 62px;
     /* margin: 4px 2px; */
     /* text-align: center; */
     border: none;
