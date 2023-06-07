@@ -1,0 +1,29 @@
+*, 
+    *:after,
+    *:before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    :root{
+
+        --blue-Dark: #07263B;
+        --blue-dark: #03394D;
+        --blue-sea: #2A5666;
+        --blue-baby: #0088B0;
+        --orange-dark: #875000;
+        --gray: #808080;
+        --gray-dark: #7E8080;
+        --gray-white: #D7D1E2;
+        --gray-blue: #D1EAF2;
+        --black: #000000;
+
+    
+        --pading-section: calc((100vw - 1200px)/2 );
+        --pading-but:24px;
+        --nav-height:100px;
+    }
+
+    
