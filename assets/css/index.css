@@ -200,7 +200,7 @@
     width: 3%;
 }
 
-.home_social_button{
+/* .home_social_button{
     background-color: var(--orange-dark);
     padding: 10px 20px;
     border: none;
@@ -208,7 +208,7 @@
     border-bottom-right-radius: 50px;
     cursor: pointer;
     width: 1%;
-}
+} */
 
 .home_social_button_insta{
     background-color: var(--orange-dark);
@@ -216,11 +216,11 @@
     max-height: 30px;
     margin-bottom: 10px;
     
-    /* padding: 10px 20px;
     border: none;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    cursor: pointer;
+    cursor: pointer; 
+    /* padding: 10px 20px;
     width: 4.5%;
     margin-bottom: 10px; */
 }
@@ -231,12 +231,12 @@
     max-width: 30px;
     max-height: 30px;
     margin-bottom: 10px;
-
-    /* padding: 10px 20px;
     border: none;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     cursor: pointer;
+
+    /* padding: 10px 20px;
     width: 4.5%; */
 }
 .home_social_insta{
