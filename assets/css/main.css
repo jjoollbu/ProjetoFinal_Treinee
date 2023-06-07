@@ -121,3 +121,30 @@
         justify-content: center;
       }
       
+
+/* Responsividade */
+
+      @media (min-width: 1440px){
+
+        .Navbar{
+            
+            padding-left: var(--pading-section);
+            padding-right: var(--pading-section);
+        }
+    }
+
+    @media (max-width: 999px) {
+        
+        .NavBar_form {
+
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .NavBar_link {
+
+            margin-right: 20px;
+        }
+      }
+

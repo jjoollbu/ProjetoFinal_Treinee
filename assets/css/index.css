@@ -1,4 +1,4 @@
-/* Divisoria codigo de Israel pra baixo */
+
 *, 
     *:after,
     *:before {
@@ -129,4 +129,159 @@
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+
+
+/* Divisoria codigo de Jonmar pra baixo */
+
+.home_banner_background {
+    
+    background-image: url(/assets/Images/Home/peixe-salmao-cru-na-ardosia-preta.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* .home_banner_background {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+
+.home_logo {
+    width: 33%;
+    height: auto;
+}
+
+.home_logo_box {
+    padding-top: 190px;
+    display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+}
+
+.home_logo_txt_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px
+}
+
+.home_logo_txt {
+    color: var(--gray-white);
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+}
+
+.home_logo_button {
+    background-color: var(--orange-dark);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.home_logo_button_txt {
+    color: var(--gray-white);
+    font-family: 'Lobster', cursive;
+    font-size: 27px;
+}
+
+.home_social_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.home_social{
+    width: 3%;
+}
+
+.home_social_button{
+    background-color: var(--orange-dark);
+    padding: 10px 20px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+    width: 1%;
+}
+
+.home_social_button_insta{
+    background-color: var(--orange-dark);
+    max-width: 30px;
+    max-height: 30px;
+    margin-bottom: 10px;
+    
+    /* padding: 10px 20px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+    width: 4.5%;
+    margin-bottom: 10px; */
+}
+
+
+.home_social_button_wpp{
+    background-color: var(--orange-dark);
+    max-width: 30px;
+    max-height: 30px;
+    margin-bottom: 10px;
+
+    /* padding: 10px 20px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+    width: 4.5%; */
+}
+.home_social_insta{
+    width: 100%;
+}
+
+.home_social_wpp{
+    width: 100%;
+}
+
+
+@media (max-width: 860px) {
+        
+    .Middle_images{
+
+        display: none;
+    }
+
+    .About_images{
+
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 800px) {
+        
+    .About_text{
+
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 670px) {
+        
+    .About_text{
+
+        font-size: 14px;
+    }
+
+    .About_tittle_two{
+
+       font-size: 70px;
+    }
 }
