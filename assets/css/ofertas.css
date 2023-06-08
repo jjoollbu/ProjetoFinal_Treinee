@@ -75,7 +75,6 @@ body {
 .text {
     font-family: 'Lobster', cursive;
     color: var(--black);
-
 }
 
 .button_ofertas {
@@ -103,7 +102,7 @@ body {
     /* border-radius: 50px; */
     border-top-left-radius: 1000px;
     border-top-right-radius: 1000px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .button_ofertas_rodape {
@@ -114,7 +113,7 @@ body {
     /* border-radius: 50px; */
     border-bottom-left-radius: 1000px;
     border-bottom-right-radius: 1000px;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin-top: -4px;
 }
 
@@ -126,7 +125,7 @@ body {
     /* border-radius: 50px; */
     border-bottom-left-radius: 1000px;
     border-bottom-right-radius: 1000px;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin-top: -4px;
 }
 
@@ -138,7 +137,7 @@ body {
     /* border-radius: 50px; */
     border-bottom-left-radius: 1000px;
     border-bottom-right-radius: 1000px;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin-top: -4px;
 }
 
@@ -150,7 +149,7 @@ body {
     /* border-radius: 50px; */
     border-bottom-left-radius: 1000px;
     border-bottom-right-radius: 1000px;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin-top: -4px;
 }
 
@@ -162,6 +161,6 @@ body {
     /* border-radius: 50px; */
     border-top-left-radius: 1000px;
     border-top-right-radius: 1000px;
-    cursor: pointer;
+    /* cursor: pointer; */
 
 }
