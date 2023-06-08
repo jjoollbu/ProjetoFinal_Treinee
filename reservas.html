@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/reservas.css">
     <title>Peixinho Gourmet</title>
 </head>
+
 <body>
-    
+
 
     <header class="NavBar">
         <img class="NavBar_logo" src="./assets/Images/Home/Logo Laranja.png" alt="Logo Peixinho Gourmet">
@@ -20,26 +23,62 @@
         </nav>
     </header>
 
-<div class="Spacement">
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati quis quo nam laboriosam debitis dicta, impedit ullam tempore, quisquam exercitationem tempora consectetur. Fugiat minima fugit vel quo quaerat, alias quia! </p>
-<br><br><br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quod alias harum facilis quaerat minus, numquam similique nam doloremque atque repellat eum maiores aspernatur nihil, nulla dignissimos aperiam nesciunt itaque.</p>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-</div>
+
+    <section class="background_form">
+        <form class="Spacement" action="https://formsubmit.co/jonmarlimaneto@gmail.com" method="POST" id="form">
+<br><br><br><br> <br><br><br><br><br> <br><br><br><br><br> 
+
+            <h1>Informe seus dados</h1>
+            <!-- <label for="name">Nome</label> -->
+            <input type="text" placeholder="Nome" id="name">
+
+            <!-- <label for="email">Email</label> -->
+            <input type="email" placeholder="Email" id="email">
+
+            <div class="container">
+
+                <!-- <label for="dia">Dia</label> -->
+                <input type="number" placeholder="Dia" id="dia">
 
 
-<footer class="Footer_form">
-    <div class="Footer_links">
-    <a href="https://i.kym-cdn.com/photos/images/newsfeed/002/336/207/55e.jpg"><img class="Footer_icons" src="./assets/Images/Home/instagram (2).png" alt="link para instagram"></a>
-    <a href="https://i.kym-cdn.com/photos/images/newsfeed/002/325/873/440"><img class="Footer_icons" src="./assets/Images/Home/facebook (1).png" alt="Link para facebook"></a>
-    <a href="https://pbs.twimg.com/media/FQPfAeZVkAIhhQi.jpg"><img class="Footer_icons" src="./assets/Images/Home/whatsapp (1).png" alt="Link para whatsapp"></a>
-    </div>
-
-    <p class="Footer_text">
-        © Copyright. Todos os direitos reservados
-    </p>
-</footer>
+                <!-- <label for="mês">Mês</label> -->
+                <input type="number" placeholder="Mês" id="mes">
 
 
+                <!-- <label for="horário">Horário</label> -->
+                <input type="number" placeholder="Horário" id="horario">
+            </div>
+
+
+            <!-- <label for="CPF">CPF</label> -->
+            <input type="text" placeholder="CPF" id="CPF">
+
+            <div class="button_box button_txt">
+                <button type="submit">Faça sua reserva</button>
+            </div>
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="box">
+        </form>
+    </section>
+
+
+    <footer class="Footer_form">
+        <div class="Footer_links">
+            <a href="https://i.kym-cdn.com/photos/images/newsfeed/002/336/207/55e.jpg"><img class="Footer_icons"
+                    src="./assets/Images/Home/instagram (2).png" alt="link para instagram"></a>
+            <a href="https://i.kym-cdn.com/photos/images/newsfeed/002/325/873/440"><img class="Footer_icons"
+                    src="./assets/Images/Home/facebook (1).png" alt="Link para facebook"></a>
+            <a href="https://pbs.twimg.com/media/FQPfAeZVkAIhhQi.jpg"><img class="Footer_icons"
+                    src="./assets/Images/Home/whatsapp (1).png" alt="Link para whatsapp"></a>
+        </div>
+
+        <p class="Footer_text">
+            © Copyright. Todos os direitos reservados
+        </p>
+    </footer>
+
+    <script src="./assets/js/reservas.js"></script>
 </body>
+
 </html>
