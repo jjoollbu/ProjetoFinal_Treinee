@@ -1,0 +1,123 @@
+*, 
+    *:after,
+    *:before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    :root{
+
+        --blue-Dark: #07263B;
+        --blue-dark: #03394D;
+        --blue-sea: #2A5666;
+        --blue-baby: #0088B0;
+        --orange-dark: #875000;
+        --gray: #808080;
+        --gray-dark: #7E8080;
+        --gray-white: #D7D1E2;
+        --gray-blue: #D1EAF2;
+        --black: #000000;
+
+    
+        --pading-section: calc((100vw - 1200px)/2 );
+        --pading-but:24px;
+          --nav-height:100px;
+    }
+
+    .Menu_background{
+
+        background-color: var(--gray-blue);
+    }
+
+    .Menu_tittle{
+
+        margin-top: 130px;
+        margin-left: 10%;
+        font-family: 'Raleway', sans-serif;
+        font-size: 50px;
+        font-style: initial;
+        color: var(--blue-baby);
+    }
+
+    /* .Menu_collum_one{
+
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: var(--nav-height);
+    }
+
+    .Menu_collum_two{
+
+        margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+        margin-left: var(--nav-height);
+    } */
+
+    /* .Menu_container{
+        
+            display: grid;
+            place-items: center;
+    } */
+
+    .Menu_collum{
+
+        gap: 20px;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+
+        margin-top: 75px;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: grid;
+        grid-template-columns: 50% 50% 
+    }
+
+    .Menu_itens_tittle{
+
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        color: #002244;
+        margin-bottom: 15px;
+    }
+
+    .Menu_itens_text{
+
+        font-family: 'Playfair Display', serif;
+        font-style:inherit;
+        font-size: 15px;
+        font-weight: bold;
+        color: var(--black);
+    }
+    
+    .Menu_itens_spacement{
+
+        margin-top: 35px;
+    }
+
+    .Menu_text_spacement{
+
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 999px) {
+        
+        .Menu_collum {
+            grid-template-columns: 100%;
+            justify-items: center;
+            }
+    }
+
+    @media (max-width: 670px) {
+
+        .Menu_tittle{
+
+            font-size: 40px;
+        }
+    }
